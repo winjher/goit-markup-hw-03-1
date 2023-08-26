@@ -10,9 +10,7 @@ h1 {
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
-    background: #FFFFFF;
-
-
+    color: #FFFFFF;
 }
 
 .logo-web {
@@ -49,6 +47,7 @@ nav {
 
 ul {
     list-style: none;
+    
 }
 
 a:hover {
