@@ -1,10 +1,17 @@
 h1 {
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
+    /* styleName: Header 1; */
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
     text-align: center;
+    background: #FFFFFF;
+
 
 }
 
@@ -72,6 +79,16 @@ a:hover {
     color: #FFFFFF;
     height: 56px;
     width: 169px;
+    width: Hug (169px);
+    height: Hug (56px);
+    top: 428px;
+    left: 636px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    gap: 10px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px #00000026;
+
 }
 
 h3 {
