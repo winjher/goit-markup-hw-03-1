@@ -44,7 +44,9 @@ nav {
     text-align: left;
     text-decoration: none;
 }
-
+.nav-menu{
+    display: flex;
+}
 ul {
     list-style: none;
     
