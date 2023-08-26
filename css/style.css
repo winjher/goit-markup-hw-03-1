@@ -1,4 +1,9 @@
 h1 {
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
+
     /* styleName: Header 1; */
     font-family: Roboto;
     font-size: 56px;
@@ -68,11 +73,7 @@ a:hover {
     width: 1440px;
     height: 600px;
     top: 72px;
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
-
+    
 }
 
 .order-button {
