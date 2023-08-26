@@ -1,3 +1,10 @@
+header{
+    width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #E7E9FC;
+    border: 1px;
+
+}
 h1 {
     
 
@@ -42,6 +49,16 @@ nav {
     text-align: left;
     text-decoration: none;
 }
+nav a{
+  float: left;
+  color: #2E2F42;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: flex;
+}
+
 .nav-menu{
     display: flex;
 }
