@@ -56,7 +56,7 @@ a:hover {
     color: blue;
 }
 
-nav-menu-link a{
+.nav-menu-link a{
   font-size: 17px;
   display: inline-block;
   margin: 0px;
@@ -78,8 +78,8 @@ width: 67px;
 height: 24px;
 }
 
-.info-link,
-.tel-link {
+.address-info-link,
+.address-tel-link {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
