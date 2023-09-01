@@ -68,16 +68,19 @@ nav-menu-link a{
 .studio {
     width: 48px;
     height: 24px;
+    text-decoration:none;
 }
 
 .portfolio{
     width: 66px;
     height: 24px;
+    text-decoration:none;
 }
 
 .contacts{
     width: 67px;
     height: 24px;
+    text-decoration:none;
 }
 
 .info-link,
@@ -92,6 +95,7 @@ nav-menu-link a{
     padding: 14px 16px;
     margin:0px;
     padding-right: 120px;
+    text-decoration:none;
 }
 .hero{
     padding-bottom: 100px;
