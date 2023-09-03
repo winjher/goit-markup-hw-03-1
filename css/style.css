@@ -86,7 +86,7 @@ nav-menu-link a{
 .contacts{
     width: 67px;
     height: 24px;
-    text-decoration: n;
+    text-decoration: none;
 }
 
 .address-info-link,
@@ -101,6 +101,7 @@ nav-menu-link a{
     padding: 14px 16px;
     margin:0px;
     padding-right: 120px;
+    text-decoration: none;
 }
 .hero{
     padding-bottom: 100px;
