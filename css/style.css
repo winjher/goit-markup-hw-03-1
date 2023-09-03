@@ -89,8 +89,8 @@ nav-menu-link a{
     text-decoration: n;
 }
 
-.info-link,
-.tel-link {
+.address-info-link,
+.address-tel-link {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
