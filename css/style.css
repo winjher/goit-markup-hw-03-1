@@ -248,7 +248,7 @@ h3 {
     align-items: center;
 }
 
-.item-gallery h2 {
+.item-gallery {
     width: 162px;
     height: 40px;
     top: 1668px;
@@ -260,7 +260,6 @@ h3 {
     width: 360px;
     height: 300px;
     border: 1px;
-    background: #E7E9FC;
     border: 1px solid #E7E9FC;
     display: flex;
 
