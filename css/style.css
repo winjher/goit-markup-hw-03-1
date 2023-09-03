@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
+    box-sizing: border-box;
 }
 
-header{
+header {
     width: 1440px;
     height: 72px;
     border-bottom: 1px solid #E7E9FC;
     border: 1px;
 }
 
-.logo{
+.logo {
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
@@ -23,52 +23,56 @@ header{
     height: Fixed (24px);
     top: 24px;
     left: 156px;
-    margin:1px;
-    float:left;
-    margin:0px;
-    padding:14px 16px;
-    
+    margin: 1px;
+    float: left;
+    margin: 0px;
+    padding: 14px 16px;
+
 
 }
+
 .logo-web {
     color: #4D5AE5;
-    text-decoration:none;
+    text-decoration: none;
     padding-left: 120px;
+    padding: 14px 16px;
+    text-align: center;
 }
 
 .logo-studio {
     color: #2E2F42;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     text-decoration: none;
-    float:left;
-    display:flex;
+    float: left;
+    display: flex;
     color: #2E2F42;
     text-align: left;
-    margin:0px;
-    
+    margin: 0px;
+
 }
 
-li{
+li {
     list-style: none;
-    padding:14px 16px;
+    padding: 14px 16px;
     text-align: center;
-    
+    text-decoration: none;
+
 }
 
 a:hover {
     color: blue;
 }
 
-nav-menu-link a{
-  font-size: 17px;
-  display: inline-block;
-  margin: 0px;
-  padding: 10px;
-  text-decoration: none;
+.nav-menu-link a {
+    font-size: 17px;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .studio {
@@ -77,13 +81,13 @@ nav-menu-link a{
     text-decoration: none;
 }
 
-.portfolio{
+.portfolio {
     width: 66px;
     height: 24px;
     text-decoration: none;
 }
 
-.contacts{
+.contacts {
     width: 67px;
     height: 24px;
     text-decoration: none;
@@ -99,20 +103,18 @@ nav-menu-link a{
     text-decoration: none;
     float: right;
     padding: 14px 16px;
-    margin:0px;
+    margin: 0px;
     padding-right: 120px;
     text-decoration: none;
 }
-.hero{
-    padding-bottom: 100px;
-}
+
 
 h1 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(0%, -60%);
-    
+
     width: 496px;
     height: 120px;
     top: 260px;
@@ -129,7 +131,7 @@ h1 {
 }
 
 h2 {
-    
+
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -139,10 +141,10 @@ h2 {
     color: #2E2F42;
     padding-left: 120;
     width: 1128px;
-    padding-top: 120px;
+
 }
 
-h3{
+h3 {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -151,6 +153,7 @@ h3{
     width: 264px;
     height: 24px;
     color: #2E2F42;
+    
 }
 
 
@@ -161,6 +164,7 @@ h3{
     width: 1440px;
     height: 600px;
     top: 72px;
+    padding: 100px;
 }
 
 .order-button {
@@ -168,7 +172,7 @@ h3{
     top: 50%;
     left: 50%;
     transform: translate(0%, -60%);
-    
+
     background-color: #4D5AE5;
     color: #FFFFFF;
     height: 56px;
@@ -189,31 +193,31 @@ h3{
     height: 104px;
     border: #434455;
     color: #2E2F42;
-    padding-bottom:100px;
+    padding-left: 100px;
 }
 
 
-.section-features-list{
+.section-features-list {
     top: 792px;
     left: 156px;
     text-align: left;
     display: flex;
-    padding: 80px 80px 100px 80px;
-    padding-bottom:100px;
+
 }
 
-.section-features-item{
-    
+.section-features-item {
+
     width: Fixed (264px);
     height: Hug (104px);
     top: 792px;
     left: 156px;
     gap: 8px;
     text-align: left;
-    
+
 
 }
-.section-features-item-title{
+
+.section-features-item-title {
     width: Fixed (264px);
     height: Hug (104px);
     top: 792px;
@@ -221,7 +225,8 @@ h3{
     gap: 8px;
 
 }
-.section-features-item-description{
+
+.section-features-item-description {
     width: 264px;
     height: 24px;
     /* styleName: Body; */
@@ -232,55 +237,76 @@ h3{
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-    padding: 10px;
+
 }
 
 .section-items-gallery {
     width: 1440px;
     border: 1px;
-    margin: 10px;
-    border: 1px solid #E7E9FC
-    display: flex;
+    border: 1px solid #E7E9FC;
     padding-top: 10px;
-    background: #E7E9FC
+    background: #E7E9FC;
+    align-items: center;
 }
-.gallery{
-    width: Hug (360px);
-    height: Hug (300px);
-    top: 1128px;
-    width: 1128px;
-    height: 412px;
-    top: 1016px;
+
+.item-gallery h2{
+    width: 162px;
+height: 40px;
+top: 1668px;
+left: 639px;
+
+}
+
+.gallery {
+    width: 360px;
+    height: 300px;
+    border: 1px;
+    background: #E7E9FC;
+    border: 1px solid #E7E9FC;
+    display: flex;
+
 }
 
 
-.section-item-team{
+.section-item-team {
     width: 1440px;
     height: 732px;
-    top: 1548px;   
-    background: #E7E9FC
+    top: 1548px;
+    background: #E7E9FC;
+    padding-top: 10px;
 }
 
 .item-team {
     width: Hug (264px);
     height: Hug (240px);
     top: 1128px;
-    border: 1px solid #E7E9FC
+    border: 1px solid #E7E9FC;
     padding-top: 10px;
-    
+
+
 }
 
+.card {
+    width: Hug (264px);
+    height: Hug (380px);
+    top: 1780px;
+    left: 156px;
+    padding: 0px 0px 32px 0px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
+
+}
 
 .item-gallery,
-.item-team{
+.item-team {
     display: flex;
     padding: 100px 120px 100px;
     text-align: center;
 }
 
 
-.bg-foot{
-        /* styleName: Body; */
+.bg-foot {
+    /* styleName: Body; */
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -294,7 +320,8 @@ h3{
     color: #F4F4FD;
     padding-left: 130px;
 }
-footer{
+
+footer {
 
     width: 1440px;
     height: 312px;
@@ -303,7 +330,7 @@ footer{
 }
 
 
-footer .text-web{
+footer .text-web {
     /* background: #4D5AE5; */
     color: #4D5AE5;
     text-align: left;
@@ -311,7 +338,8 @@ footer .text-web{
     padding-left: 130px;
     text-decoration: none;
 }
-footer .text-studio{
+
+footer .text-studio {
     /* background: #F4F4FD; */
     color: #F4F4FD;
     text-align: left;
@@ -319,28 +347,28 @@ footer .text-studio{
 }
 
 
-.section-filter{
+.section-filter {
     width: Hug (586px);
     height: Hug (48px);
     top: 168px;
     left: 427px;
     gap: 24px;
+
 }
 
-.filter-btn{
+.filter-btn {
     width: Hug (116px);
     height: Hug (48px);
     padding: 12px 24px 12px 24px;
     border-radius: 4px;
     border: 1px;
     background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
-    linear-gradient(0deg, #E7E9FC, #E7E9FC);
+        linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid #E7E9FC;
-    
+
+
 }
-.filter-btn :active{
+
+.filter-btn :active {
     background: #404BBF;
-
-
 }
-
