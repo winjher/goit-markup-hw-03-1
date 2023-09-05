@@ -6,69 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" href="" title="" type="" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <a href="https://winjher.github.io/goit-markup-hw-02/" class="logo-web">
-            WEBSTUDIO
+        <a href="https://winjher.github.io/goit-markup-hw-01/" class="logo-web">
+            WEB
+        </a>
+        <a href="https://winjher.github.io/goit-markup-hw-01/" class="logo-studio">
+            STUDIO
         </a>
         <nav>
-            <ul>
-                <li>
-                    <a href="https://github.com/winjher/goit-markup-hw-02" class="nav-menu-link">Studio</a>
+        <div id="" class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-menu-link">
+                    <a href="https://github.com/winjher/goit-markup-hw-02">Studio</a>
                 </li>
-                <li>
-                    <a href="./portfolio.html" class="nav-menu-link">Profile</a>
+                <li class="nav-menu-link">
+                    <a href="./portfolio.html" >Profile</a>
                 </li>
-                <li>
-                    <a href="" class="nav-menu-link">Contacts</a>
+                <li class="nav-menu-link">
+                    <a href="">Contacts</a>
                 </li>
             </ul>
         </nav>
         <address>
-            <a href="mailto:" class="address-info-link">info@devstudio.com</a>
-            <a href="tel" class="address-tel-link">110001111111</a>
+            <ul class="address-menu">
+                <li>
+                    <a href="mailto:" class="address-email-link">info@devstudio.com</a>
+                </li>
+                 <li>
+                    <a href="tel" class="address-telephone-link">110001111111</a>
+                </li>
+            </ul>
         </address>
+        </div>
     </header>
     <main>
-        <section class="section-filter">
+        <section class="section-services">
             <button class="filter-btn active">All</button>
             <button class="filter-btn">Web Site</button>
             <button class="filter-btn">App</button>
             <button class="filter-btn">Design</button>
             <button class="filter-btn">Marketing</button>
         </section>
-        <section>
-            <ul>
-                <li>
+        <section class="section-application">
+            <ul class="section-application-list">
+                <li class="section-application-item">
                     <img src="./images/banking.jpg" alt="" width="360">
                     <h3>Banking App Interface Concept</h3>
                 </li>
-                <li>
+                <li class="section-application-item">
                     <img src="./images/cashless.jpg" alt="" width="360">
                     <h3>Cashless Payment</h3>
                 </li>
-                <li>
+                <li class="section-application-item">
                     <img src="./images/meditation.jpg" alt="" width="360">
                     <h3>Meditation App</h3>
                 </li>
             </ul>
         </section>
-        <section>
-            <ul>
-                <li>
+        <section class="section-courses">
+            <ul class="section-course-list">
+                <li class="section-course-item">
                     <img src="./images/taxiservice.jpg" alt="" width="360">
                     <h3>Taxi Service</h3>
                     <p>Marketing</p>
                 </li>
-                <li>
+                <li class="section-course-item">
                     <img src="./images/screenillustration.jpg" alt="" width="360">
                     <h3>Screen Illustrations</h3>
                     <p>Design</p>
                 </li>
-                <li>
+                <li class="section-course-item">
                     <img src="./images/onlinecourses.jpg" alt="" width="360">
                     <h3>Online Courses</h3>
                     <p>Marketing</p>
@@ -76,19 +89,19 @@
             </ul>
         </section>
 
-        <section>
-            <ul>
-                <li>
+        <section class="section-webdesign">
+            <ul class="section-webdesign-list">
+                <li class="section-webdesign-item">
                     <img src="./images/story_concept.jpg" alt="Instagram Stories Concept" width="264">
                     <h3>Instagram Stories Concept</h3>
                     <p>Design</p>
                 </li>
-                <li>
+                <li class="section-webdesign-item">
                     <img src="./images/organic_food.jpg" alt="Organic Food" width="264">
                     <h3>Organic Food</h3>
                     <p>Web Site</p>
                 </li>
-                <li>
+                <li class="section-webdesign-item">
                     <img src="./images/fresh_coffee.jpg" alt="Fresh Coffee" width="264">
                     <h3>Fresh Coffee</h3>
                     <p>Web Site</p>
@@ -97,10 +110,13 @@
         </section>
     </main>
     <footer>
-        <a href="https://winjher.github.io/goit-markup-hw-2/" class="logo-web">
-            WEBSTUDIO
+        <a href="https://winjher.github.io/goit-markup-hw-02/" class="text-web">
+            WEB
         </a>
-        <p>
+        <a href="" class="text-studio">
+            STUDIO
+        </a>
+        <p class="text-footer">
             Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p>
     </footer>
