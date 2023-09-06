@@ -45,6 +45,8 @@ body{
     letter-spacing: 0.02em;
     text-align: left;
     text-decoration: none;
+    display: inline-block;
+    justify-content: center;
 }
 
 .nav-menu{
@@ -62,6 +64,8 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: inline-block;
+    justify-content: center;
 }
 
 .main-hero {
@@ -97,7 +101,7 @@ body{
 .service-button-cta:hover{
     cursor: pointer;
 }
-.section-filter{
+.section-services{
     width: Hug (586px);
     height: Hug (48px);
     top: 168px;
