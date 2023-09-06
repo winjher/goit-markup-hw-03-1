@@ -34,6 +34,7 @@ ul{
 .logo-webstudio::before {
     content: "WEB";
     color: var(--color-iris);
+    margin-left: 156px
 }
 .logo-webstudio {
     color: var(--color-navyblue);
@@ -55,7 +56,8 @@ ul{
     text-decoration: none;
     display: inline-block;
     justify-content: center;
-    
+    padding: 10px;
+    margin-left: 50px
 }
 
 .nav-menu{
@@ -75,6 +77,8 @@ ul{
     text-decoration: none;
     display: inline-block;
     justify-content: center;
+    padding: 10px;
+    ;
    
 }
 
@@ -95,7 +99,7 @@ ul{
     margin-left: 472px;
     width: 496px;
     padding-top: 260px;
-
+    padding-bottom: 20px;
 }
 
 .service-button-cta {
@@ -112,6 +116,7 @@ ul{
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.04em;
+    
 }
 .service-button-cta:hover{
     cursor: pointer;
@@ -149,30 +154,63 @@ ul{
     letter-spacing: 0.02em;
     text-align: center;
 }
-
-.section-item-gallery {
+.section-features-item{
+    padding: 10px;
+}
+.ourteam-item{
+    padding: 10px;
+}
+.section-gallery-item {
     width: 1128px;
     height: 412px;
     top: 1016px;
+    padding: 10px;
 }
 .section-features{
     margin-left: 156px;
-    justify-content: left;
-    gap: 8px
+    text-align: left;
 }
 .section-gallery,
 .ourteam{
     text-align: center;
     margin-left: 156px;
+
+}
+.section-features-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
-.our-team-name,
-.section-features-list{
+
+.our-team-name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color:var(--color-navyblue);
+    padding-bottom: 10px;
+}
+.card{
+    width: Fixed (232px);
+    height: Hug (56px);
+    gap: 8px;
+    color: var(--color-white);
+}
+.section-features-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 .ourteam-work,
-.section-features-item {
+.section-features-item-description {
     color:var(--color-slate);
 }
 
@@ -219,7 +257,6 @@ footer {
     align-items: center;
 }
 .section-features-list{
-    justify-content: center;
     display: flex;
 }
 
@@ -239,4 +276,10 @@ footer {
 .section-gallery-title,
 .our-team-title{
     text-align: center;
+}
+
+.section-course-list,.section-webdesign-list,.section-application-list{
+    padding: 10px;
+    margin-left: 156px;
+
 }
