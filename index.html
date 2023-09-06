@@ -3,43 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 3</title>
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Homework 2</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <link rel="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" href="" title="" type="" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
     <header>
-        <a href="https://winjher.github.io/goit-markup-hw-03/" class="logo-web logo">
-         WEB
-        </a>
-        <a href="" class="logo-studio logo">
+        <a href="https://winjher.github.io/goit-markup-hw-01/" class="logo-webstudio">
             STUDIO
         </a>
+
         <nav>
-            <ul class="nav-menu-link">
-                <li>
-                    <a href="https://github.com/winjher/goit-markup-hw-03" class="studio">Studio</a>
+        <div id="" class="nav-container">
+            <ul class="nav-menu">
+                <li class="nav-menu-link active">
+                    <a href="https://github.com/winjher/goit-markup-hw-02">Studio</a>
                 </li>
-                <li>
-                    <a href="./portfolio.html" class="portfolio">Profile</a>
+                <li class="nav-menu-link active">
+                    <a href="./portfolio.html" >Profile</a>
                 </li>
-                <li>
-                    <a href="" class="contacts">Contacts</a>
+                <li class="nav-menu-link active">
+                    <a href="">Contacts</a>
                 </li>
             </ul>
         </nav>
         <address>
-            <a href="mailto:" class="address-info-link">info@devstudio.com</a>
-            <a href="tel" class="address-tel-link">110001111111</a>
+            <ul class="address-menu">
+                <li>
+                    <a href="mailto:" class="address-email-link ">info@devstudio.com</a>
+                </li>
+                 <li>
+                    <a href="tel" class="address-telephone-link ">110001111111</a>
+                </li>
+            </ul>
         </address>
+        </div>
     </header>
        
     <main>
         
-        <section class="hero">
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button" class="order-button">Order Service</button>
+        <section class="main-hero">
+            <h1 class="service-hero-title">Effective Solutions for Your Business</h1>
+            <button type="button" class="service-button-cta active">Order Service</button>
         </section>
         
         <section class="section-features ">
@@ -54,7 +61,7 @@
                         time.</p>
                 </li>
                 <li class="section-features-item">
-                    <h3 class="section-features-item-title">Diligence</h3>
+                    <h3 class="section-features-title">Diligence</h3>
                     <p class="section-features-item-description">Research and confirm brands that present the strongest digital growth opportunities and minimize
                         risk.</p>
                 </li>
@@ -65,36 +72,36 @@
                 </li>
             </ul>
         </section><br>
-        <section class="section-items-gallery">
-            <h2>What Are You Doing</h2>
-            <ul class="item-gallery">
-                <li><img src="./images/img_1.jpg" alt="one" width="360"></li>
-                <li><img src="./images/img_2.jpg" alt="two" width="360"></li>
-                <li><img src="./images/img_3.jpg" alt="three" width="360"></li>
+        <section class="section-gallery">
+            <h2 class="section-gallery-title">What Are You Doing</h2>
+            <ul class="section-gallery-list">
+                <li class="section-gallery-item"><img src="./images/img_1.jpg" alt="one" width="360"></li>
+                <li class="section-gallery-item"><img src="./images/img_2.jpg" alt="two" width="360"></li>
+                <li class="section-gallery-item"><img src="./images/img_3.jpg" alt="three" width="360"></li>
             </ul>
         </section>
-        <section class="section-item-team">
-            <h2>Our Team</h2>
-            <ul class="item-team">
-                <li class="card">
+        <section class="ourteam">
+            <h2 class="our-team-title">Our Team</h2>
+            <ul class="ourteam-list">
+                <li class="ourteam-item">
                     <img src="./images/img1.jpg" alt="Mark Guerrero" width="264">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                    <h3 class="our-team-name">Mark Guerrero</h3>
+                    <p class="ourteam-work">Product Designer</p>
                 </li>
-                <li class="card">
+                <li class="ourteam-item">
                     <img src="./images/img2.jpg" alt="Tom Ford" width="264">
-                    <h3>Tom Ford</h3>
-                    <p>Fronted Designer</p>
+                    <h3 class="our-team-name">Tom Ford</h3>
+                    <p class="ourteam-work">Fronted Designer</p>
                 </li>
-                <li class="card">
+                <li class="ourteam-item">
                     <img src="./images/img3.jpg" alt="Camila Garcia" width="264">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <h3 class="our-team-name">Camila Garcia</h3>
+                    <p class="ourteam-work">Marketing</p>
                 </li>
-                <li class="card">
+                <li class="ourteam-item">
                     <img src="./images/img4.jpg" alt="Daniel Wilson" width="264">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <h3 class="our-team-name">Daniel Wilson</h3>
+                    <p class="ourteam-work">UI Designer</p>
                 </li>
             </ul>
         </section>
