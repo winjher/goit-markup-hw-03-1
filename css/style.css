@@ -22,7 +22,15 @@ body{
     font-family: 'Opens Sans' ,san-serif;
     font-family: Roboto;
 }
+.header{
+    background-color: var(--color-white);
+    border:1px var(--color-navyblue) ;
+}
 
+ul{
+    text-decoration: none;
+    list-style: none;
+}
 .logo-webstudio::before {
     content: "WEB";
     color: var(--color-iris);
@@ -47,6 +55,7 @@ body{
     text-decoration: none;
     display: inline-block;
     justify-content: center;
+    
 }
 
 .nav-menu{
@@ -66,6 +75,7 @@ body{
     text-decoration: none;
     display: inline-block;
     justify-content: center;
+   
 }
 
 .main-hero {
@@ -80,13 +90,12 @@ body{
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.02em;
-    color: var(--color-white);
-    line-height: 40px;
-    letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 260px;
-    height: 120px;
+    color: var(--color-white);
+    margin-left: 472px;
     width: 496px;
+    padding-top: 260px;
+
 }
 
 .service-button-cta {
@@ -95,8 +104,14 @@ body{
     height: 56px;
     width: 169px;
     box-shadow: none;
-    border-radius: 1px;
+    border-radius: 4px;
     border: none;
+    margin-left: 636px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
 }
 .service-button-cta:hover{
     cursor: pointer;
@@ -118,9 +133,11 @@ body{
     background: linear-gradient(0deg, #F4F4FD, #F4F4FD),
     linear-gradient(0deg, #E7E9FC, #E7E9FC);
     border: 1px solid var(--color-cornflower);
+    cursor: pointer;
 }
 .filter-btn :active{
     background: var(--color-ocean);
+    cursor: pointer;
 }
 
 .section-gallery-title,.our-team-title{
@@ -194,4 +211,30 @@ footer {
 }
 .nav-menu-link:active{
     color: var(--color-slate);
+}
+
+.section-courses{
+    align-items: center;
+}
+.section-features-list{
+    justify-content: center;
+    display: flex;
+}
+
+.section-gallery{
+    align-items: center;
+}
+.nav-menu,.address-menu,
+.section-gallery-list,.ourteam-list,
+.section-application-list,
+.section-course-list,
+.section-webdesign-list
+{
+    display: flex;
+    text-align: center;
+    border: 1px var(--color-cornflower);
+}
+.section-gallery-title,
+.our-team-title{
+    text-align: center;
 }
