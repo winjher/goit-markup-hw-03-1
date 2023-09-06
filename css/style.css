@@ -155,7 +155,11 @@ ul{
     height: 412px;
     top: 1016px;
 }
-
+.section-features{
+    margin-left: 156px;
+    justify-content: left;
+    gap: 8px
+}
 .section-gallery,
 .ourteam{
     text-align: center;
