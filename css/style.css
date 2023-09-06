@@ -141,7 +141,7 @@ ul{
 }
 
 .section-gallery-title,.our-team-title{
-    color: #2E2F42;
+    color: var(--color-navyblue);
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -154,17 +154,15 @@ ul{
     width: 1128px;
     height: 412px;
     top: 1016px;
-    left: 156px;
 }
 
-.section-item-team{
-    width: 1440px;
-    height: 732px;
-    top: 1548px;    
-
+.section-gallery,
+.ourteam{
+    text-align: center;
+    margin-left: 156px;
 }
 
-.our-team-name
+.our-team-name,
 .section-features-list{
     color:var(--color-navyblue);
 }
