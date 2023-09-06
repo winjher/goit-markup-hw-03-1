@@ -29,8 +29,6 @@ body{
 }
 .logo-webstudio {
     color: var(--color-navyblue);
-}
-.logo-webstudio{
     text-decoration: none;
     font-family: Raleway;
     font-size: 18px;
@@ -79,10 +77,12 @@ body{
     line-height: 60px;
     letter-spacing: 0.02em;
     color: var(--color-white);
-    font-size: 36px;
-    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 260px;
+    height: 120px;
+    width: 496px;
 }
 
 .service-button-cta {
